@@ -1,0 +1,40 @@
+<!-- Checkboxes are a type of input field that allow the user to click more than one option. The name attr is also pertinent to the checkbox field to associate the input to a group of elements. -->
+
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+  
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+
+    <label>
+      <input id="Curious" name="personality" type="checkbox">
+      Curious
+    </label>
+    <label>
+      <input id="Happy" name="personality" type="checkbox">
+      Happy
+    </label>
+    <label>
+      <input id="Hungry" name="personality" type="checkbox">
+      Hungry
+    </label>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
