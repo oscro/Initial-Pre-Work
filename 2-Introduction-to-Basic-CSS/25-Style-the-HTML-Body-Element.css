@@ -1,0 +1,9 @@
+<!-- The body element of an HTML document can be targeted as a CSS Selector. -->
+
+<style>
+
+body {
+background-color: black;
+}
+
+</style>
