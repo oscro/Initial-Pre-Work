@@ -1,0 +1,7 @@
+<!-- RGB values are another way to specify colors in CSS. The three numbers separated by commas represent levels of red, green, and blue. -->
+
+<style>
+body {
+  background-color: rgb(0, 0, 0);
+}
+</style>

@@ -1,0 +1,17 @@
+<!-- The order in which the classes are listed in CSS matters as the last one declared will always take precedence over the first. -->
+
+<style>
+body {
+  background-color: black;
+  font-family: monospace;
+  color: green;
+}
+.pink-text {
+  color: pink;
+}
+
+.blue-text {
+  color: blue; 
+}
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>

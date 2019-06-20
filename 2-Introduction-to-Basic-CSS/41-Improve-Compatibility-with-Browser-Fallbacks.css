@@ -1,0 +1,14 @@
+<!-- Browser compatibility could be troublesome at times and it is best to write fallback properties in case the browser is unable to find variables that represent the change you would like. -->
+
+<style>
+:root {
+  --red-color: red;
+}
+.red-box {
+  background: red; 
+  background: var(--red-color);
+  height: 200px;
+  width:200px;
+}
+</style>
+<div class="red-box"></div>
