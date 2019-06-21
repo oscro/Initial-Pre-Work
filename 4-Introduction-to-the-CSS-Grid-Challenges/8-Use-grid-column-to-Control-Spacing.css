@@ -1,0 +1,38 @@
+<!-- grid-column is a property used on an item inside of a grid rather than the container itself. 
+It specifies on which line the item begins and on which line of the grid it ends. 
+The example below holds a 3x3 grid that has 4 column lines and 4 row lines.
+The specification below states that item 5 will begin on column line 2 and end on column line 4.  -->
+
+<style>
+.item1{background:LightSkyBlue;}
+.item2{background:LightSalmon;}
+.item3{background:PaleTurquoise;}
+.item4{background:LightPink;}
+
+.item5 {
+  background: PaleGreen;
+  /* add your code below this line */
+  grid-column: 2/4;
+  
+  /* add your code above this line */
+}
+
+.container {
+  font-size: 40px;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+</style>
+
+<div class="container">
+<div class="item1">1</div>
+<div class="item2">2</div>
+<div class="item3">3</div>
+<div class="item4">4</div>
+<div class="item5">5</div>
+</div>
