@@ -1,0 +1,30 @@
+<!-- flex-shrink is a property in CSS that changes the mechanics of the 
+flex-items by allowing them to shrink within a parent 
+element that is smaller than the given size of the children.
+The numbers given to the individual flex-items correspond with the multiple in which they shrink.
+In the example below, box number 2 shrinks 2 times as much as box 1. This is due to the number given in the flex-shrink property. -->
+
+<style>
+#box-container {
+  display: flex;
+  height: 500px;
+}
+#box-1 {
+  background-color: dodgerblue;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 1;
+}
+
+#box-2 {
+  background-color: orangered;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 2;
+}
+</style>
+
+<div id="box-container">
+<div id="box-1"></div>
+<div id="box-2"></div>
+</div>
