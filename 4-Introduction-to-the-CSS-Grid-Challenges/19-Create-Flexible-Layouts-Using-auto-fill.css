@@ -1,6 +1,6 @@
 <!-- The repeat function has the option of auto-fill which would allow it to 
-automatically fill the grid container with the sized columns specified in the second argument. 
-This would allow the amount of columns placed in the container to dynamically change in relation to the sizing of the window.  -->
+automatically fill the grid container with the sized rows or columns specified in the second argument. 
+This would allow the amount of rows or columns placed in the container to dynamically change in relation to the sizing of the window.  -->
 
 <style>
 .item1{background:LightSkyBlue;}
