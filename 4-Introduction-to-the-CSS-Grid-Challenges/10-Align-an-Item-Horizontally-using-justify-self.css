@@ -1,4 +1,4 @@
-<!-- justify-self is a property placed on an item in a grid to position the contents of the item within the cell in a particular manner.
+<!-- justify-self is a property placed on an item in a grid to horizontally position the contents of the item within the cell.
 In this example, we centered the contents of item 2 to be centered within the cell. -->
 
 <style>
